@@ -161,3 +161,36 @@ body {
 .num11 div {
   transform: rotate(-330deg);
 }
+
+.hand {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hand div {
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #000000;
+}
+
+.sec {
+  width: 1px;
+  height: 40%;
+}
+
+.min {
+  width: 4px;
+  height: 38%;
+  border-radius: 2px;
+}
+
+.hour {
+  width: 8px;
+  height: 28%;
+  border-radius: 4px;
+}
